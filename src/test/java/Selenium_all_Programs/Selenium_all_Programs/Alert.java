@@ -16,6 +16,7 @@ public class Alert {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
       
+		driver.get("google.com");
 //		driver.manage().window().maximize();
 //		driver.get("https://letcode.in/alert");
 		
